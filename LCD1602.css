@@ -1,0 +1,29 @@
+﻿/* LCD display */
+div.LCD1602 {
+  width: 404px;
+  padding: 21px 5px 21px 9px;
+  background-color: black;
+}
+div.LCD1602 div.beazle {
+  width: 384px;
+	height: 84px;
+  padding: 5px;
+  border: 2px inset silver;
+  background-color: blue;
+}
+div.LCD1602 div.cell {
+  float: left;
+  width: 20px;
+  height: 40px;
+  margin: 1px 2px 1px 2px;
+}
+div.LCD1602 div.cell div {
+  float: left;
+  width: 2px;
+  height: 2px;
+  background-color: transparent;
+  margin: 1px;
+}
+div.LCD1602 div.cell div.dot {
+  background-color: white;
+}
